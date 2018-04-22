@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Chats</title>
+</head>
+<body>
+  <header>
+    <div class="header__top">
+      <div class="header__column">
+        <i class="fas fa-plane"></i>
+        <i class="fa fa-wifi"></i>
+      </div>
+      <div class="header__column">
+        <span class="header__time">16:02</span>
+      </div>
+      <div class="header__column"></div>
+        <i class="fas fa-moon-o"></i>
+        <i class="fab fa-bluetooth-b"></i>
+      <span class="header__battery">100% <i class="fa fa-battery-full"></i></span>
+    </div>
+    <div class="header__bottom"></div>
+      <div class="header__column">
+        <span class="header__text">Edit</span>
+      </div>
+      <div class="header__column">
+        <span class="header__text">Chats <i class="fa fa-caret-down"></i></span>
+      </div>
+      <div class="header__column">
+      </div>
+  </header>
+  <main class="chats">
+    <div class="search-bar">
+      <i class="fa fa-search"></i>
+      <input type="text" placeholder="Find friends, chats & more!">
+    </div>
+    <ul class="chat__list">
+      <li class="chats__chat-joe">
+        <div class="chat__content">
+          <img src="images/avatar_joe.jpg">
+          <div class="chat__preview">
+            <h3 class="chat__user">Joe</h3>
+            <span class="chat__last-message">If you want I can check it for you tomorrow.</span>
+          </div>
+        </div>
+        <span class="chat__date_time">
+          15:56
+        </span>
+      </li>
+      <li class="chats__chat-britt">
+        <div class="chat__content">
+          <img src="images/avatar_britt.jpg">
+          <div class="chat__preview">
+            <h3 class="chat__user">Britt</h3>
+            <span class="chat__last-message">No one can beat him :)</span>
+          </div>
+        </div>
+        <span class="chat__date_time">
+          14:21
+        </span>
+      </li>
+      <li class="chats__chat-junmo">
+        <div class="chat__content">
+          <img src="images/avatar_junmo.jpg">
+          <div class="chat__preview">
+            <h3 class="chat__user">Junmo</h3>
+            <span class="chat__last-message">Come to my birthday party!</span>
+          </div>
+        </div>
+        <span class="chat__date_time">
+          April 21
+        </span>
+      </li>
+      <li class="chats__chat-kimmy">
+        <div class="chat__content">
+          <img src="images/avatar_kimmy.jpg">
+          <div class="chat__preview">
+            <h3 class="chat__user">Kimmy</h3>
+            <span class="chat__last-message">No worries.</span>
+          </div>
+        </div>
+        <span class="chat__date_time">
+          April 21
+        </span>
+      </li>
+      <li class="chats__chat-desktop">
+        <div class="chat__content">
+          <img src="images/avatar_shark.jpg">
+          <div class="chat__preview">
+            <h3 class="chat__user">SharkTalk</h3>
+            <span class="chat__last-message">You logged into SharkTalk PC. Enjoy!</span>
+          </div>
+        </div>
+        <span class="chat__date_time">
+          April 21
+        </span>
+      </li>
+    </ul>
+    <div class="chat-button">
+      <i class="fa fa-comment"></i>
+    </div>
+  </main>
+  <nav class="tab-bar">
+    <a href="index.html" class="tab-bar__tab">
+      <i class="fa fa-user"></i>
+      <span class="tab-bar__title">Friends</span>
+    </a>
+    <a href="chat_list.html" class="tab-bar__tab tab-bar__tab--selected">
+      <i class="fa fa-comment"></i>
+      <span class="tab-bar__title">Chats</span>
+    </a>
+    <a href="find.html" class="tab-bar__tab">
+      <i class="fa fa-search"></i>
+      <span class="tab-bar__title">Find</span>
+    </a>
+    <a href="more.html" class="tab-bar__tab">
+      <i class="fa fa-ellipsis-h"></i>
+      <span class="tab-bar__title">More</span>
+    </a>
+  </nav>
+</body>
+</html>
