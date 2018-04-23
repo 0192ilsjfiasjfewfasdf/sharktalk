@@ -1,5 +1,5 @@
 .search-bar {
-  padding: 10px 25px;
+  padding: 10px 15px;
   position: relative;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .search-bar input:focus {
-  outline: none;  
+  outline: none;
 }
 
 .search-bar i {
