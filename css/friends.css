@@ -39,4 +39,5 @@
 .friends__section-column {
   display: flex;
   align-items: center;
+  margin-right: 40px;
 }
