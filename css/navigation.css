@@ -1,12 +1,12 @@
 .tab-bar{
-  background-color: #b3dcff;
+  background-color: #d5e8f3;
   position: fixed;
   width: 100%;
   bottom: 0;
   display: flex;
   justify-content: space-between;
   padding: 10px 30px 5px 30px;
-  border-top: 1px solid #668eaa;
+  border-top: 1px solid #02b6ce;
 }
 
 .tab-bar .tab-bar__tab{
@@ -14,7 +14,7 @@
   align-items: center;
   flex-direction: column;
   text-decoration: none;
-  color: #668eaa;
+  color: #4e778d;
 }
 
 .tab-bar .tab-bar__tab i{
@@ -29,5 +29,5 @@
 }
 
 .tab-bar .tab-bar__tab--selected{
-  color: #333333;
+  color: #02b6ce;
 }
