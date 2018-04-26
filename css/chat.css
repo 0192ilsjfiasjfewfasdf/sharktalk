@@ -1,0 +1,133 @@
+.body-chat{
+  padding-bottom: 0;
+}
+
+.chat-header,
+.chat-header a {
+  background-color: #bfd2ef;
+  color: black;
+  text-decoration: none;
+}
+
+.chat-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.chat {
+  background-color: #bfd2ef;
+  height: 100vh;
+  padding-top: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.chat .date-divider {
+  text-align: center;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 15px;
+}
+
+.chat__message{
+  margin-bottom: 15px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.chat__message-from-me {
+  justify-content: flex-end;
+}
+
+.chat__message-to-me img{
+  align-self: flex-start;
+}
+
+.chat__message-time{
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.chat__message-from-me .chat__message-body{
+  background-color: #02b6ce;
+  color: #fcfcfc;
+  border: 1px solid #1a6f76;
+  margin-left: 5px;
+
+}
+
+.chat__message-body{
+  padding: 8px;
+  border-radius: 13px;
+  margin-right: 5px;
+}
+
+.chat__message-to-me{
+
+}
+
+.chat .chat__message-to-me img{
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.chat__message .chat__message-username {
+  font-size: 13px;
+  font-weight: 600;
+  color: #003b3e;
+  margin-bottom: 5px;
+}
+
+.chat__message-to-me .chat__message-body{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.chat__message-center{
+  display: flex;
+  flex-direction: column;
+}
+
+.message-box {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 45px;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.message-box__input{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.message-box input{
+  width: 100%;
+  padding: 10px;
+}
+
+.message-box .fa-plus-square {
+  color: grey;
+}
+
+.message-box .fa-smile{
+  position: absolute;
+  right: 45px;
+  color: grey;
+}
+
+.message-box__input .record-message {
+  background-color: #02b6ce;
+  color: #fcfcfc;
+  padding: 10px;
+  cursor: pointer;
+}
