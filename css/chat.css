@@ -4,8 +4,8 @@
 
 .chat-header,
 .chat-header a {
-  background-color: #bfd2ef;
-  color: black;
+  background-color: #02b6ce;
+  color: white;
   text-decoration: none;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .chat {
-  background-color: #bfd2ef;
+  background-color: #d5e8f3;
   height: 100vh;
   padding-top: 15px;
   padding-left: 5px;

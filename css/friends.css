@@ -1,13 +1,13 @@
 .friends__section .friends__section-header {
   border-top: 1px solid #ebebeb;
   border-bottom: 1px solid #ebebeb;
-  padding: 8px 25px;
+  padding: 8px 20px;
   font-size: 12px;
   color: #a5a5a5;
 }
 
 .friends__section-rows .friends__section-row {
-  padding: 10px 25px;
+  padding: 10px 20px;
   display: flex;
   align-items: center;
   font-size: 14px;
@@ -40,4 +40,16 @@
   display: flex;
   align-items: center;
   margin-right: 40px;
+}
+
+.friends__section-row img{
+}
+
+@keyframes rotateMyProfile {
+  from{
+    transform: rotateY(0deg);
+  }
+  to{
+    transform: rotateY(360deg);
+  }
 }

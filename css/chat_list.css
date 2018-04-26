@@ -68,3 +68,18 @@
   color: #d5e8f3;
   transform: rotateY(1turn);
 }
+
+.chats {
+  animation: bodyPopIn .5s ease-in-out;
+}
+
+@keyframes bodyPopIn {
+  from{
+    opacity: 0;
+    transform: translateY(+10px);
+  }
+  to{
+    opacity: 1;
+    transform: none;
+  }
+}
